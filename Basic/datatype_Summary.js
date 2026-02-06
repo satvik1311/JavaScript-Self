@@ -33,3 +33,25 @@ myfunction();
 // Understanding these differences is crucial for effective programming in JavaScript.
 
 
+// MEMORY
+// STACK (Primitive),Heap (Non - Primitive)
+// example of Stack memory
+
+let myYoutubename = "Satvikdotcom";
+
+let anothername = myYoutubename;
+anothername = "Chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+// example of heap memory
+let user1 = {
+    email: "satvik.gaur12@gmail.com",
+    upi: "satvik@ybl"
+}
+let user2 = user1;
+
+user2.email = "satviko291@gmail.com";
+
+console.log(user1.email);
+console.log(user2.email);
