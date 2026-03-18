@@ -53,7 +53,7 @@ let negValue = -value;
 
 let str1 = "Hello";
 let str2 = " Satvik";
-// console.log(str1 + str2);
+// console.log(str1 + str2); //output => Hello Satvik
 
 // console.log(true+true); // 2
 

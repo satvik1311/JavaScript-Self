@@ -1,4 +1,4 @@
-// Primitive Data Types Summary
+ // Primitive Data Types Summary
 
 // 7 Primitive Data Types in JavaScript:
 // String , Number , null , undefined , Boolean , Symbol , BigInt
@@ -55,3 +55,5 @@ user2.email = "satviko291@gmail.com";
 
 console.log(user1.email);
 console.log(user2.email);
+
+  
